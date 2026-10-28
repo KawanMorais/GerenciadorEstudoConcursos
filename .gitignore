@@ -1,0 +1,65 @@
+# ============================================
+# Segredos e configuracoes locais
+# ============================================
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+*.pfx
+*.key
+secrets.json
+
+# ============================================
+# .NET / C# (back-end)
+# ============================================
+# Resultado da compilacao
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Ll]og/
+[Ll]ogs/
+
+# Pacotes NuGet baixados
+*.nupkg
+*.snupkg
+packages/
+
+# Resultados de testes
+[Tt]est[Rr]esult*/
+coverage/
+*.coverage
+*.coveragexml
+
+# ============================================
+# Visual Studio
+# ============================================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# ============================================
+# VS Code (front-end, mais tarde)
+# ============================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ============================================
+# Node / React (front-end, mais tarde)
+# ============================================
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-error.log*
+
+# ============================================
+# Sistema operacional
+# ============================================
+Thumbs.db
+Desktop.ini
+.DS_Store

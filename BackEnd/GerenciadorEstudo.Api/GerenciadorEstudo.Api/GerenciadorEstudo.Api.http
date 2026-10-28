@@ -1,0 +1,3 @@
+@GerenciadorEstudo.Api_HostAddress = https://localhost:7104
+
+# As requisicoes de teste vao entrar aqui conforme criarmos os endpoints.
