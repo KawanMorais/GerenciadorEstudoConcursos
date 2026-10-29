@@ -1,3 +1,20 @@
 @GerenciadorEstudo.Api_HostAddress = https://localhost:7104
 
-# As requisicoes de teste vao entrar aqui conforme criarmos os endpoints.
+### Cadastro
+POST {{GerenciadorEstudo.Api_HostAddress}}/auth/register
+Content-Type: application/json
+
+{
+  "email": "teste@email.com",
+  "senha": "senhaDeTeste123",
+  "confirmarSenha": "senhaDeTeste123"
+}
+
+### Login
+POST {{GerenciadorEstudo.Api_HostAddress}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "teste@email.com",
+  "senha": "senhaDeTeste123"
+}
